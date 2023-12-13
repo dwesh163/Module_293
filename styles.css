@@ -5,27 +5,56 @@
 	font-family: roboto;
 }
 
+:root {
+	--header-height: 80px;
+
+	--footer-height: 50px;
+	--footer-text-size: clamp(1px, 2.5vw, 16px);
+	--footer-text-color: #fff;
+	--footer-background-color: #212121;
+}
+
 html,
 body {
 	height: 100%;
 	margin: 0;
 }
 
+body {
+	background: rgb(53, 53, 53);
+}
+
 header {
+	height: var(--header-height);
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+
+header nav {
+	line-height: var(--header-height);
+}
+
+header nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header img {
+	width: 10%;
 }
 
 main {
-	min-height: 100%;
-	margin-bottom: -40px;
 }
 
 footer {
 	text-align: center;
-	height: 40px;
-	font-size: clamp(0, 2.5vw, 10px);
-	background-color: #2f2f2f;
-	color: #fff;
-	line-height: 40px;
+	height: var(--footer-height);
+	font-size: var(--footer-text-size);
+	background-color: var(--footer-background-color);
+	color: var(--footer-text-color);
+	line-height: var(--footer-height);
+	font-weight: 700;
 }
 
 footer a {

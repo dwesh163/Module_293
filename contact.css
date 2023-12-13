@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+	font-family: roboto;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body {
+	background: radial-gradient(350.16% 182.87% at 110.38% -37.78%, #ffef61 9.9%, #ff6161 45.83%, #ff6161 54.17%, #8f00ff 100%);
+}
+
+form {
+	display: flex;
+	width: 25rem;
+	padding: 51.091px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 38.318px;
+	border-radius: 23.949px;
+	background: #fff;
+}
+
+form article {
+	width: 100%;
+}
+
+form article label {
+	padding-bottom: 22px;
+	color: #000;
+	font-size: 1em;
+	font-weight: 500;
+	line-height: normal;
+}
+
+form article input {
+	height: 3rem;
+	padding-left: 12px;
+	border-radius: 7.983px;
+	border: 0.2px solid rgba(70, 79, 93, 0.4);
+	background: #fff;
+	width: 100%;
+}
+
+form .nameBox {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+}
