@@ -13,13 +13,19 @@ body {
 	background: radial-gradient(350.16% 182.87% at 110.38% -37.78%, #ffef61 9.9%, #ff6161 45.83%, #ff6161 54.17%, #8f00ff 100%);
 }
 
+h2 {
+	font-size: 1em;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+
 form {
 	display: flex;
 	width: 25rem;
-	padding: 51.091px;
+	padding: 30px 40px 12px 40px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 38.318px;
+	gap: 32px;
 	border-radius: 23.949px;
 	background: #fff;
 }
@@ -38,11 +44,53 @@ form article label {
 
 form article input {
 	height: 3rem;
-	padding-left: 12px;
 	border-radius: 7.983px;
 	border: 0.2px solid rgba(70, 79, 93, 0.4);
 	background: #fff;
 	width: 100%;
+	width: 96.5%;
+	padding-left: 12px;
+	font-size: 0.9em;
+}
+
+form article input::placeholder {
+	font-size: 1.1em;
+}
+
+.group {
+	display: flex;
+}
+
+.group select {
+	border-radius: 7.983px;
+	border: 0.2px solid rgba(70, 79, 93, 0.4);
+	background: #fff;
+	width: 31%;
+	font-size: 1.1em;
+	padding-left: 12px;
+	border-radius: 7.983px 0px 0px 7.983px;
+}
+
+.group input {
+	border-radius: 0px 7.983px 7.983px 0px;
+}
+
+form #info {
+	padding: 12px;
+	border-radius: 7.983px;
+	border: 0.2px solid rgba(70, 79, 93, 0.4);
+	background: #fff;
+	width: 94%;
+	height: 100px;
+}
+
+form .drapeau {
+	width: 20px;
+	margin-right: 5px;
+}
+
+form #info::placeholder {
+	margin: 12px;
 }
 
 form .nameBox {
