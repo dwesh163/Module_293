@@ -1,0 +1,39 @@
+* {
+	box-sizing: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+header {
+}
+
+main {
+	min-height: 100%;
+	margin-bottom: -40px;
+}
+
+footer {
+	text-align: center;
+	height: 40px;
+	font-size: clamp(0, 2.5vw, 10px);
+	background-color: #2f2f2f;
+	color: #fff;
+	line-height: 40px;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+	color: rgb(200, 200, 200);
+	transition: 50ms;
+}
