@@ -8,9 +8,8 @@
 		<link rel="stylesheet" href="contact.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
 	</head>
 	<body>
 		<header>
@@ -21,6 +20,16 @@
 		<main>
 			<section class="formBox">
 				<form action="" method="get">
+					<article class="emailBox">
+						<label for="email"><h2>Email</h2></label>
+						<input id="email" placeholder="" name="email" type="email" required />
+					</article>
+
+					<article class="passwordBox">
+						<label for="password"><h2>Password</h2></label>
+						<input id="password" placeholder="" name="password" type="password" required />
+					</article>
+
 					<article class="informationBox">
 						<label for="information"><h2>Information</h2></label>
 						<div class="nameBox">
@@ -28,7 +37,6 @@
 							<input id="information" placeholder="nom" name="nom" type="text" required />
 						</div>
 					</article>
-
 
 					<article class="telBox">
 						<label for="tel"><h2>Phone number</h2></label>
@@ -89,40 +97,23 @@
 
 					<article class="locationBox">
 						<label for="location"><h2>Location</h2></label>
-						<input id="location" placeholder="" name="location" type="" required />						
+						<input id="location" placeholder="" name="location" type="" required />
 					</article>
 
 					<article class="InfoBox">
 						<label for="info"><h2>About Me</h2></label>
-						<textarea id="info" placeholder="Tell us about yourself..." name="info" type="text" ></textarea>
+						<textarea id="info" placeholder="Tell us about yourself..." name="info" type="text"></textarea>
 					</article>
 
-					<!-- <article>
-						<label for="name">nom : </label>
-						<input id="name" name="nom" type="text" required />
-					</article>
-					<article>
-						<label for="prenom">prénom : </label>
-						<input id="prenom" name="prenom" type="text" required />
-					</article>
-					<article>
-						<label for="age">âge : </label>
-						<input id="age" name="age" type="number" min="0" nax="99" required />
-					</article>
-					<article>
-						<label for="url">url<span>*</span> : </label>
-						<input id="url" name="url" type="url" required />
-					</article>
-					<article>
-						<label for="date">date de naissance : </label>
-						<input id="date" name="date" type="date" required />
-					</article>
-					<article>
-						<label for="commentaire">commentaire : </label>
-						<input id="commentaire" name="commentaire" type="text" required />
-					</article> -->
-					<button type="submit">envoyer</button>
-					<button type="reset">réinitialiser</button>
+					<div class="buttonBox">
+						<button id="next" class="submit" type="button" onclick="navigateForm()">
+							next
+							<!--from https://icons.getbootstrap.com/-->
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+							</svg>
+						</button>
+					</div>
 				</form>
 			</section>
 		</main>

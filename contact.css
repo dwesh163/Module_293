@@ -10,7 +10,8 @@ main {
 }
 
 body {
-	background: radial-gradient(350.16% 182.87% at 110.38% -37.78%, #ffef61 9.9%, #ff6161 45.83%, #ff6161 54.17%, #8f00ff 100%);
+	background: rgb(46, 46, 46);
+	background: linear-gradient(0deg, rgba(46, 46, 46, 1) 0%, rgba(49, 68, 164, 1) 100%);
 }
 
 h2 {
@@ -25,13 +26,14 @@ form {
 	padding: 30px 40px 12px 40px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 32px;
 	border-radius: 23.949px;
 	background: #fff;
+	margin-top: 6%;
 }
 
 form article {
 	width: 100%;
+	margin-top: 12px;
 }
 
 form article label {
@@ -53,6 +55,10 @@ form article input {
 	font-size: 0.9em;
 }
 
+.box {
+	width: 100%;
+}
+
 form article input::placeholder {
 	font-size: 1.1em;
 }
@@ -62,10 +68,9 @@ form article input::placeholder {
 }
 
 .group select {
-	border-radius: 7.983px;
 	border: 0.2px solid rgba(70, 79, 93, 0.4);
 	background: #fff;
-	width: 31%;
+	width: 33%;
 	font-size: 1.1em;
 	padding-left: 12px;
 	border-radius: 7.983px 0px 0px 7.983px;
@@ -97,4 +102,29 @@ form .nameBox {
 	display: flex;
 	justify-content: space-between;
 	gap: 12px;
+}
+
+.buttonBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	width: 100%;
+}
+
+.passwordBox {
+	margin-bottom: 32px;
+}
+.submit {
+	margin-top: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 10px 24px;
+	background-color: #1175bc;
+	color: white;
+	border: none;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	border-radius: 7.983px;
 }
