@@ -10,8 +10,8 @@ main {
 }
 
 body {
-	background: rgb(46, 46, 46);
-	background: linear-gradient(0deg, rgba(46, 46, 46, 1) 0%, rgba(49, 68, 164, 1) 100%);
+	background: linear-gradient(180deg, rgba(53, 53, 53, 0) 53.65%, rgba(227, 6, 19, 0.46) 100%);
+	background-color: #1e1e1e;
 }
 
 h2 {
@@ -111,8 +111,13 @@ form .nameBox {
 	width: 100%;
 }
 
-.passwordBox {
-	margin-bottom: 32px;
+.InfoBox {
+	margin-top: 32px;
+}
+
+.checkboxBox {
+	display: flex;
+	margin-top: 32px;
 }
 .submit {
 	margin-top: 22px;
@@ -127,4 +132,18 @@ form .nameBox {
 	align-items: center;
 	font-size: 16px;
 	border-radius: 7.983px;
+}
+
+.buttonBox .submit {
+	background-color: crimson;
+	cursor: pointer;
+}
+
+.disable {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.checkboxLabel:checked + .buttonBox .submit {
+	background-color: #007bff;
 }
