@@ -14,6 +14,12 @@ body {
 	background-color: #1e1e1e;
 }
 
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
 h2 {
 	font-size: 1em;
 	font-weight: 500;
@@ -28,12 +34,12 @@ form {
 	align-items: flex-start;
 	border-radius: 23.949px;
 	background: #fff;
-	margin-top: 6%;
+	margin-top: 25%;
 }
 
 form article {
 	width: 100%;
-	margin-top: 12px;
+	margin-top: 2px;
 }
 
 form article label {
@@ -135,8 +141,9 @@ form .nameBox {
 }
 
 .buttonBox .submit {
-	background-color: crimson;
+	background-color: #f10000;
 	cursor: pointer;
+	font-weight: 600;
 }
 
 .disable {

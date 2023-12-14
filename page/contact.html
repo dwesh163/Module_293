@@ -4,15 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" href="contact.css" />
+		<link rel="stylesheet" href="/styles/contact.css" />
+		<link rel="stylesheet" href="/styles/header.css" />
+		<link rel="stylesheet" href="/styles/footer.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
 	</head>
 	<body>
 		<header>
+			<img src="/images/Marvel_Logo.png" alt="" />
 			<nav>
+				<a href="personnage.html">personnage</a>
 				<a href="contact.html">contact</a>
+				<a href="personnage.html">personnage</a>
+				<a href="personnage.html">personnage</a>
 			</nav>
 		</header>
 		<main>
@@ -21,8 +26,8 @@
 					<article class="informationBox">
 						<label for="information"><h2>Information</h2></label>
 						<div class="nameBox">
-							<input id="information" placeholder="prénom" name="prenom" type="text" required />
-							<input id="information" placeholder="nom" name="nom" type="text" required />
+							<input id="information" placeholder="last name" name="lastName" type="text" required />
+							<input id="information" placeholder="name" name="name" type="text" required />
 						</div>
 					</article>
 
@@ -107,7 +112,7 @@
 
 					<div class="buttonBox">
 						<button class="submit" type="submit">
-							Summit
+							Submit
 							<!--from https://icons.getbootstrap.com/-->
 							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
 								<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
@@ -117,7 +122,7 @@
 				</form>
 			</section>
 		</main>
-		<footer style="position: absolute; width: 100%; bottom: 0">
+		<!-- <footer style="position: absolute; width: 100%; bottom: 0">
 			<p>
 				Coded by
 				<a href="https://github.com/Dwesh163" target="_blank" class="underline">
@@ -125,6 +130,6 @@
 					<i class="fab fa-github" style="font-size: 1.5vh"></i>
 				</a>
 			</p>
-		</footer>
+		</footer> -->
 	</body>
 </html>

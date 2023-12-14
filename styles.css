@@ -21,48 +21,9 @@ body {
 }
 
 body {
-	background: rgb(53, 53, 53);
-}
-
-header {
-	height: var(--header-height);
-	display: flex;
-	justify-content: space-between;
-	padding: 0px 20px;
-}
-
-header nav {
-	line-height: var(--header-height);
-}
-
-header nav a {
-	text-decoration: none;
-	color: #fff;
-}
-
-header img {
-	width: 10%;
+	background: linear-gradient(180deg, rgba(53, 53, 53, 0) 53.65%, rgba(227, 6, 19, 0.46) 100%);
+	background-color: #1e1e1e;
 }
 
 main {
-}
-
-footer {
-	text-align: center;
-	height: var(--footer-height);
-	font-size: var(--footer-text-size);
-	background-color: var(--footer-background-color);
-	color: var(--footer-text-color);
-	line-height: var(--footer-height);
-	font-weight: 700;
-}
-
-footer a {
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-}
-
-footer a:hover {
-	color: rgb(200, 200, 200);
-	transition: 50ms;
 }

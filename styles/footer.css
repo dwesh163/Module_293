@@ -1,0 +1,19 @@
+footer {
+	text-align: center;
+	height: var(--footer-height);
+	font-size: var(--footer-text-size);
+	background-color: var(--footer-background-color);
+	color: var(--footer-text-color);
+	line-height: var(--footer-height);
+	font-weight: 700;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+	color: rgb(200, 200, 200);
+	transition: 50ms;
+}

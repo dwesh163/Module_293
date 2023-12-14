@@ -1,0 +1,19 @@
+header {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px;
+}
+
+header nav {
+	line-height: 60px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header img {
+	height: 100%;
+}
