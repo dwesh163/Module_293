@@ -4,9 +4,6 @@
 }
 
 main {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 body {
@@ -19,9 +16,44 @@ body {
 	margin: 0;
 }
 
-section h2 {
+.aboutUs {
+	height: 600px;
+}
+.aboutUs h2 {
+	padding: 22px;
+	font-size: 2em;
+	color: #fff;
+	margin: 0px;
+}
+
+.aboutUs p {
+	color: #fff;
+	padding: 22px;
+}
+
+.aboutUsInfo {
+	width: 50%;
+}
+
+.aboutUsText {
+	margin-top: 4%;
+	width: 50%;
+}
+
+.text {
+	width: 100%;
+	display: flex;
+}
+
+.marvelMovies {
+	background-color: #ff0011;
+}
+
+.marvelMovies h2 {
 	text-align: center;
 	color: #fff;
+	font-size: 2.3em;
+	font-weight: 700;
 }
 
 .filmList {
@@ -33,15 +65,15 @@ section h2 {
 
 .filmList article {
 	overflow: hidden;
-	width: 20%;
-	height: 540px;
+	width: 340px;
+	height: 480px;
 	border-radius: 23.949px;
 	background: #fff;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .filmList article .imgBox {
-	height: 400px;
+	height: 340px;
 	overflow: hidden;
 }
 
