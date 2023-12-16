@@ -3,6 +3,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 10px;
+	background-color: #1e1e1e;
 }
 
 header nav {
@@ -20,4 +21,62 @@ header a {
 
 header img {
 	height: 100%;
+}
+
+.burgerMenu {
+	display: none;
+}
+
+.burgerLabel {
+	display: block;
+	cursor: pointer;
+	color: #fff;
+}
+
+.burgerIcon {
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+#burgerCheckbox:checked+.burgerLabel {
+	margin-left: 150px;
+}
+
+#burgerCheckbox:checked+.burgerLabel .burgerIcon:nth-child(1) {
+	transform: rotate(-45deg) translate(-5px, 7.5px);
+}
+
+#burgerCheckbox:checked+.burgerLabel .burgerIcon:nth-child(2) {
+	opacity: 0;
+}
+
+#burgerCheckbox:checked+.burgerLabel .burgerIcon:nth-child(3) {
+	transform: rotate(45deg) translate(-5px, -7.5px);
+}
+
+.menu {
+	display: none;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+#burgerCheckbox:checked+.burgerLabel+.menu {
+	display: block;
+}
+
+.menu a {
+	display: block;
+	margin-bottom: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.menu i {
+	margin-right: 10px;
 }

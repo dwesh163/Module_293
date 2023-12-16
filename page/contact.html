@@ -1,130 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="/styles/contact.css" />
-		<link rel="stylesheet" href="/styles/header.css" />
-		<link rel="stylesheet" href="/styles/footer.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
-	</head>
-	<body>
-		<header>
-			<a href="../index.html">
-				<img src="/images/Marvel_Logo.png" alt="" />
-			</a>
-			<nav>
-				<a href="/page/movies.html">movies</a>
-				<a href="/page/contact.html">contact</a>
-				<a href="/page/personnage.html">personnage</a>
-				<a href="/page/personnage.html">personnage</a>
-			</nav>
-		</header>
-		<main>
-			<section class="formBox">
-				<form action="" method="get">
-					<article class="informationBox">
-						<label for="information"><h2>Name</h2></label>
-						<div class="nameBox">
-							<input id="information" placeholder="Fist name" name="fistName" type="text" required />
-							<input id="information" placeholder="Last name" name="lastName" type="text" required />
-						</div>
-					</article>
 
-					<article class="telBox">
-						<label for="tel"><h2>Phone number</h2></label>
-						<div class="group">
-							<select id="pays" name="pays">
-								<option value="ch">🇨🇭 +41</option>
-								<option value="ae">🇦🇪 +971</option>
-								<option value="at">🇦🇹 +43</option>
-								<option value="au">🇦🇺 +61</option>
-								<option value="be">🇧🇪 +32</option>
-								<option value="bg">🇧🇬 +359</option>
-								<option value="bh">🇧🇭 +973</option>
-								<option value="br">🇧🇷 +55</option>
-								<option value="ca">🇨🇦 +1</option>
-								<option value="cn">🇨🇳 +86</option>
-								<option value="cz">🇨🇿 +420</option>
-								<option value="de">🇩🇪 +49</option>
-								<option value="dk">🇩🇰 +45</option>
-								<option value="es">🇪🇸 +34</option>
-								<option value="fi">🇫🇮 +358</option>
-								<option value="fr">🇫🇷 +33</option>
-								<option value="gb">🇬🇧 +4</option>
-								<option value="gr">🇬🇷 +30</option>
-								<option value="hk">🇭🇰 +852</option>
-								<option value="hu">🇭🇺 +36</option>
-								<option value="id">🇮🇩 +62</option>
-								<option value="il">🇮🇱 +972</option>
-								<option value="in">🇮🇳 +91</option>
-								<option value="it">🇮🇹 +39</option>
-								<option value="jp">🇯🇵 +81</option>
-								<option value="kr">🇰🇷 +82</option>
-								<option value="kw">🇰🇼 +965</option>
-								<option value="mx">🇲🇽 +52</option>
-								<option value="my">🇲🇾 +60</option>
-								<option value="nl">🇳🇱 +31</option>
-								<option value="no">🇳🇴 +47</option>
-								<option value="nz">🇳🇿 +64</option>
-								<option value="om">🇴🇲 +968</option>
-								<option value="ph">🇵🇭 +63</option>
-								<option value="pl">🇵🇱 +48</option>
-								<option value="pt">🇵🇹 +351</option>
-								<option value="qa">🇶🇦 +974</option>
-								<option value="ro">🇷🇴 +40</option>
-								<option value="ru">🇷🇺 +7</option>
-								<option value="sa">🇸🇦 +966</option>
-								<option value="se">🇸🇪 +46</option>
-								<option value="sg">🇸🇬 +65</option>
-								<option value="th">🇹🇭 +66</option>
-								<option value="tr">🇹🇷 +90</option>
-								<option value="tw">🇹🇼 +886</option>
-								<option value="vn">🇻🇳 +84</option>
-								<option value="za">🇿🇦 +27</option>
-								<option value="us">🇺🇸 +1</option>
-							</select>
-							<input id="tel" placeholder="Phone number" name="tel" type="tel" required />
-						</div>
-					</article>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="/styles/contact.css" />
+	<link rel="stylesheet" href="/styles/header.css" />
+	<link rel="stylesheet" href="/styles/footer.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+</head>
 
-					<article class="emailBox">
-						<label for="email"><h2>Email</h2></label>
-						<input id="email" placeholder="mail@example.com" name="email" type="email" required />
-					</article>
+<body>
+	<header>
+		<a href="../index.html">
+			<img src="/images/Marvel_Logo.png" alt="" />
+		</a>
+		<nav>
+			<input type="checkbox" class="burgerMenu" id="burgerCheckbox">
+			<label for="burgerCheckbox" class="burgerLabel">
+				<div class="burgerIcon"></div>
+				<div class="burgerIcon"></div>
+				<div class="burgerIcon"></div>
+			</label>
 
-					<article class="passwordBox">
-						<label for="password"><h2>Password</h2></label>
-						<input id="password" placeholder="········" name="password" type="password" required />
-					</article>
+			<div class="menu">
+				<a href="/"><i class="fas fa-home"></i>Home</a>
+				<a href="/page/movies.html"><i class="fas fa-film"></i>Movies</a>
+				<a href="/page/contact.html"><i class="fas fa-envelope"></i>Contact</a>
+				<a href="/page/info.html"><i class="fas fa-info-circle"></i>Info</a>
+			</div>
 
-					<article class="InfoBox">
-						<label for="info"><h2>About Me</h2></label>
-						<textarea id="info" placeholder="Tell us about yourself..." name="info" type="text"></textarea>
-					</article>
-
-					<div class="checkboxBox">
-						<label class="checkboxLabel">
-							<input class="checkbox" type="checkbox" required />
-							I accept the conditions of use
-						</label>
+		</nav>
+	</header>
+	<main>
+		<section class="formBox">
+			<form action="" method="get">
+				<article class="informationBox">
+					<label for="information">
+						<h2>Name</h2>
+					</label>
+					<div class="nameBox">
+						<input id="information" placeholder="Fist name" name="fistName" type="text" required />
+						<input id="information" placeholder="Last name" name="lastName" type="text" required />
 					</div>
+				</article>
 
-					<div class="buttonBox">
-						<button class="submit" type="submit">
-							Submit
-							<!--from https://icons.getbootstrap.com/-->
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-								<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-							</svg>
-						</button>
+				<article class="telBox">
+					<label for="tel">
+						<h2>Phone number</h2>
+					</label>
+					<div class="group">
+						<select id="pays" name="pays">
+							<option value="ch">🇨🇭 +41</option>
+							<option value="ae">🇦🇪 +971</option>
+							<option value="at">🇦🇹 +43</option>
+							<option value="au">🇦🇺 +61</option>
+							<option value="be">🇧🇪 +32</option>
+							<option value="bg">🇧🇬 +359</option>
+							<option value="bh">🇧🇭 +973</option>
+							<option value="br">🇧🇷 +55</option>
+							<option value="ca">🇨🇦 +1</option>
+							<option value="cn">🇨🇳 +86</option>
+							<option value="cz">🇨🇿 +420</option>
+							<option value="de">🇩🇪 +49</option>
+							<option value="dk">🇩🇰 +45</option>
+							<option value="es">🇪🇸 +34</option>
+							<option value="fi">🇫🇮 +358</option>
+							<option value="fr">🇫🇷 +33</option>
+							<option value="gb">🇬🇧 +4</option>
+							<option value="gr">🇬🇷 +30</option>
+							<option value="hk">🇭🇰 +852</option>
+							<option value="hu">🇭🇺 +36</option>
+							<option value="id">🇮🇩 +62</option>
+							<option value="il">🇮🇱 +972</option>
+							<option value="in">🇮🇳 +91</option>
+							<option value="it">🇮🇹 +39</option>
+							<option value="jp">🇯🇵 +81</option>
+							<option value="kr">🇰🇷 +82</option>
+							<option value="kw">🇰🇼 +965</option>
+							<option value="mx">🇲🇽 +52</option>
+							<option value="my">🇲🇾 +60</option>
+							<option value="nl">🇳🇱 +31</option>
+							<option value="no">🇳🇴 +47</option>
+							<option value="nz">🇳🇿 +64</option>
+							<option value="om">🇴🇲 +968</option>
+							<option value="ph">🇵🇭 +63</option>
+							<option value="pl">🇵🇱 +48</option>
+							<option value="pt">🇵🇹 +351</option>
+							<option value="qa">🇶🇦 +974</option>
+							<option value="ro">🇷🇴 +40</option>
+							<option value="ru">🇷🇺 +7</option>
+							<option value="sa">🇸🇦 +966</option>
+							<option value="se">🇸🇪 +46</option>
+							<option value="sg">🇸🇬 +65</option>
+							<option value="th">🇹🇭 +66</option>
+							<option value="tr">🇹🇷 +90</option>
+							<option value="tw">🇹🇼 +886</option>
+							<option value="vn">🇻🇳 +84</option>
+							<option value="za">🇿🇦 +27</option>
+							<option value="us">🇺🇸 +1</option>
+						</select>
+						<input id="tel" placeholder="Phone number" name="tel" type="tel" required />
 					</div>
-				</form>
-			</section>
-		</main>
-		<!-- <footer style="position: absolute; width: 100%; bottom: 0">
+				</article>
+
+				<article class="emailBox">
+					<label for="email">
+						<h2>Email</h2>
+					</label>
+					<input id="email" placeholder="mail@example.com" name="email" type="email" required />
+				</article>
+
+				<article class="passwordBox">
+					<label for="password">
+						<h2>Password</h2>
+					</label>
+					<input id="password" placeholder="········" name="password" type="password" required />
+				</article>
+
+				<article class="InfoBox">
+					<label for="info">
+						<h2>About Me</h2>
+					</label>
+					<textarea id="info" placeholder="Tell us about yourself..." name="info" type="text"></textarea>
+				</article>
+
+				<div class="checkboxBox">
+					<label class="checkboxLabel">
+						<input class="checkbox" type="checkbox" required />
+						I accept the conditions of use
+					</label>
+				</div>
+
+				<div class="buttonBox">
+					<button class="submit" type="submit">
+						Submit
+						<!--from https://icons.getbootstrap.com/-->
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+							class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+						</svg>
+					</button>
+				</div>
+			</form>
+		</section>
+	</main>
+	<!-- <footer style="position: absolute; width: 100%; bottom: 0">
 			<p>
 				Coded by
 				<a href="https://github.com/Dwesh163" target="_blank" class="underline">
@@ -133,5 +157,6 @@
 				</a>
 			</p>
 		</footer> -->
-	</body>
+</body>
+
 </html>
