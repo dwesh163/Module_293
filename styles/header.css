@@ -63,10 +63,12 @@ header img {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
+	position: absolute;
 }
 
 #burgerCheckbox:checked+.burgerLabel+.menu {
 	display: block;
+	width: 150px;
 }
 
 .menu a {
