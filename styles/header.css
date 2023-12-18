@@ -18,68 +18,85 @@ header nav a {
 
 header a {
 	height: 100%;
+	font-weight: 700;
+}
+
+header a:hover {
+	color: #e50c15;
 }
 
 header img {
 	height: 100%;
 }
 
+.menu a {
+	margin: 0px 10px;
+}
+
+.menu .fas {
+	margin: 0px 4px;
+}
+
 .burgerMenu {
 	display: none;
 }
 
-.burgerLabel {
-	display: block;
-	cursor: pointer;
-	color: #fff;
-}
+@media (max-width: 800px) {
+	.burgerLabel {
+		display: block;
+		cursor: pointer;
+		color: #fff;
+		margin-top: 17px;
+		margin-right: 12px;
+	}
 
-.burgerIcon {
-	width: 30px;
-	height: 3px;
-	background-color: #fff;
-	margin: 6px 0;
-	transition: 0.4s;
-}
+	.burgerIcon {
+		width: 30px;
+		height: 3px;
+		background-color: #fff;
+		margin: 6px 0;
+		transition: 0.4s;
+	}
 
-#burgerCheckbox:checked + .burgerLabel {
-	margin-left: 150px;
-}
+	#burgerCheckbox:checked + .burgerLabel {
+		margin-left: 150px;
+	}
 
-#burgerCheckbox:checked + .burgerLabel .burgerIcon:nth-child(1) {
-	transform: rotate(-45deg) translate(-5px, 7.5px);
-}
+	#burgerCheckbox:checked + .burgerLabel .burgerIcon:nth-child(1) {
+		transform: rotate(-45deg) translate(-5px, 7.5px);
+	}
 
-#burgerCheckbox:checked + .burgerLabel .burgerIcon:nth-child(2) {
-	opacity: 0;
-}
+	#burgerCheckbox:checked + .burgerLabel .burgerIcon:nth-child(2) {
+		opacity: 0;
+	}
 
-#burgerCheckbox:checked + .burgerLabel .burgerIcon:nth-child(3) {
-	transform: rotate(45deg) translate(-5px, -7.5px);
-}
+	#burgerCheckbox:checked + .burgerLabel .burgerIcon:nth-child(3) {
+		transform: rotate(45deg) translate(-5px, -7.5px);
+	}
 
-.menu {
-	display: none;
-	padding: 20px;
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	position: absolute;
-}
+	.menu {
+		display: none;
+		padding: 20px;
+		background-color: #333;
+		color: #fff;
+		text-align: center;
+		position: absolute;
+	}
 
-#burgerCheckbox:checked + .burgerLabel + .menu {
-	display: block;
-	width: 150px;
-}
+	#burgerCheckbox:checked + .burgerLabel + .menu {
+		display: block;
+		width: 150px;
+	}
 
-.menu a {
-	display: block;
-	margin-bottom: 10px;
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-}
+	.menu a {
+		display: block;
+		margin-bottom: 10px;
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+	}
 
-.menu i {
-	margin-right: 10px;
+	.menu i {
+		margin-right: 10px;
+	}
 }
