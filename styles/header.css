@@ -25,6 +25,14 @@ header a:hover {
 	color: #e50c15;
 }
 
+.menu a.current {
+	border-bottom: 2px solid #fff;
+}
+
+.menu a.current:hover {
+	border-bottom: 2px solid #e50c15;
+}
+
 header img {
 	height: 100%;
 }
@@ -34,7 +42,7 @@ header img {
 }
 
 .menu .fas {
-	margin: 0px 4px;
+	margin-right: 4px;
 }
 
 .burgerMenu {
