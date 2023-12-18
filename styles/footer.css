@@ -1,19 +1,30 @@
 footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
 	text-align: center;
-	height: 100px;
-	font-size: 1rem;
-	background-color: #2f2f2f;
-	color: white;
-	line-height: 100px;
-	font-weight: 700;
 }
 
 footer a {
+	color: #fff;
 	text-decoration: none;
-	color: rgb(255, 255, 255);
 }
 
 footer a:hover {
-	color: rgb(200, 200, 200);
-	transition: 50ms;
+	color: #e3e3e3;
+}
+
+.social-links {
+	margin-top: 10px;
+}
+
+.social-links i {
+	margin: 0 5px;
+	font-size: 20px;
+	color: #fff;
+	transition: color 100ms ease-in-out;
+}
+
+.social-links i:hover {
+	color: red;
 }

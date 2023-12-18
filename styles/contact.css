@@ -7,6 +7,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	min-height: calc(100vh - 150px);
 }
 
 body {
@@ -152,4 +153,31 @@ form .nameBox {
 
 .checkboxLabel:checked + .buttonBox .submit {
 	background-color: #007bff;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 0px !important;
+	padding-bottom: 12px !important;
+}
+
+@media only screen and (max-width: 425px) {
+	form {
+		margin-top: 0px;
+	}
+	main {
+		transform: scale(0.6);
+	}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+	form {
+		margin-top: 2%;
+	}
+
+	main {
+		transform: scale(0.8);
+	}
 }
