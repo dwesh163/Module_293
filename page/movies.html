@@ -1,806 +1,716 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/styles/movies.css" />
+		<link rel="stylesheet" href="/styles/header.css" />
+		<link rel="stylesheet" href="/styles/footer.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Document</title>
-	<link rel="stylesheet" href="/styles/movies.css" />
-	<link rel="stylesheet" href="/styles/header.css" />
-	<link rel="stylesheet" href="/styles/footer.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
-</head>
+	<body>
+		<header>
+			<a href="../index.html">
+				<img src="/images/Marvel_Logo.png" alt="" />
+			</a>
+			<nav>
+				<input type="checkbox" class="burgerMenu" id="burgerCheckbox" />
+				<label for="burgerCheckbox" class="burgerLabel">
+					<div class="burgerIcon"></div>
+					<div class="burgerIcon"></div>
+					<div class="burgerIcon"></div>
+				</label>
 
-<body>
-	<header>
-		<a href="../index.html">
-			<img src="/images/Marvel_Logo.png" alt="" />
-		</a>
-		<nav>
-			<input type="checkbox" class="burgerMenu" id="burgerCheckbox">
-			<label for="burgerCheckbox" class="burgerLabel">
-				<div class="burgerIcon"></div>
-				<div class="burgerIcon"></div>
-				<div class="burgerIcon"></div>
-			</label>
+				<div class="menu">
+					<a href="/"><i class="fas fa-home"></i>Home</a>
+					<a href="/page/movies.html"><i class="fas fa-film"></i>Movies</a>
+					<a href="/page/contact.html"><i class="fas fa-envelope"></i>Contact</a>
+					<a href="/page/info.html"><i class="fas fa-info-circle"></i>Info</a>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="aboutUs">
+				<h2>About us</h2>
+				<div class="text">
+					<article class="aboutUsText">
+						<p>Marvel Studios, LLC est un studio cinématographique et télévisuel américain, filiale des Walt Disney Studios. La société a été fondée sous le nom de Marvel Films par le groupe Marvel Entertainment. La division était précédemment dirigée par Avi Arad, en tant que président et directeur général, du 13 mai 1993 jusqu'à octobre 1998. À cette date, il a assumé d'autres responsabilités au sein de l'entreprise, notamment en tant que producteur exécutif pour la production cinématographique du studio. Marvel Studios produit les films et les séries de l'Univers cinématographique Marvel, basés sur les personnages qui apparaissent dans les publications de Marvel Comics.</p>
 
-			<div class="menu">
-				<a href="/"><i class="fas fa-home"></i>Home</a>
-				<a href="/page/movies.html"><i class="fas fa-film"></i>Movies</a>
-				<a href="/page/contact.html"><i class="fas fa-envelope"></i>Contact</a>
-				<a href="/page/info.html"><i class="fas fa-info-circle"></i>Info</a>
-			</div>
+						<p>
+							<em>Anciennement</em> : Marvel Films<br />
+							<strong>Type</strong> : Filiale de Marvel Entertainment<br />
+							<strong>Industrie</strong> : Télévision<br />
+							<strong>Genre</strong> : Superhéros<br />
+							<strong>Fondé</strong> : 7 décembre 1993<br />
+						</p>
 
-		</nav>
-	</header>
-	<main>
-		<section class="aboutUs">
-			<h2>About us</h2>
-			<div class="text">
-				<article class="aboutUsText">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Orci dapibus ultrices in iaculis nunc sed. Volutpat odio
-						facilisis mauris sit amet massa vitae tortor. Nunc vel risus commodo viverra maecenas accumsan
-						lacus vel facilisis. At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Nec ultrices
-						dui sapien eget mi proin sed libero. Porta nibh venenatis cras sed. Non curabitur gravida arcu
-						ac tortor dignissim. Libero enim sed faucibus turpis in eu mi bibendum. Non blandit massa enim
-						nec dui nunc mattis. Elementum sagittis vitae et leo duis ut diam quam nulla.</p>
-				</article>
-				<article class="aboutUsInfo"></article>
-			</div>
-		</section>
-		<section class="marvelMovies">
-			<h2>Marvel Movies</h2>
-			<div class="flex">
+						<p class="copyright">
+							<em>Copyright © </em>
+							<a href="https://en.wikipedia.org/wiki/Marvel_Studios" target="_blank">Wikipedia <i class="fab fa-wikipedia-w"></i> </a>
+						</p>
+					</article>
+					<article class="aboutUsInfo">
+						<h2>7 films ont dépassé le milliard de dollars de recettes dans l'univers MCU</h2>
 
-
-				<article class="movieList">
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/mqAQO6j5gkq6iwCXNbXpzf0RXBU.jpg" alt="" />
-						</div>
-						<h3>The Marvels</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2023</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.509/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 45MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="" />
-						</div>
-						<h3>Les Gardiens de la Galaxie : Volume 3</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2023</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.003/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 29MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg" alt="" />
-						</div>
-						<h3>Ant-Man et la Guêpe : Quantumania</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2023</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.394/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 4MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg" alt="" />
-						</div>
-						<h3>Black Panther : Wakanda Forever</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2022</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.165/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 41MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg" alt="" />
-						</div>
-						<h3>Thor : Love and Thunder</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2022</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.5/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 58MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg" alt="" />
-						</div>
-						<h3>Doctor Strange in the Multiverse of Madness</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2022</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.34/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 6MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/3SyG7dq2q0ollxJ4pSsrqcfRmVj.jpg" alt="" />
-						</div>
-						<h3>Spider-Man : No Way Home</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2021</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.0/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 28MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/uYh5Z0BwU04WMmrPYLFEfFQWfw0.jpg" alt="" />
-						</div>
-						<h3>Les Éternels</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2021</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.913/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 36MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/g54eUtuCTAOQaNlVpr7Kpr7sVoH.jpg" alt="" />
-						</div>
-						<h3>Shang-Chi et la Légende des Dix Anneaux</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2021</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.579/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 11MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/tIdq9lGrbSsq3RkgB9r0g0vYTbl.jpg" alt="" />
-						</div>
-						<h3>Black Widow</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2021</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.3/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 13MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/zrNKUa5SBUwue39coJArNdDgQJM.jpg" alt="" />
-						</div>
-						<h3>Spider-Man : Far From Home</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2019</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.443/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 9MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg" alt="" />
-						</div>
-						<h3>Avengers : Endgame</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2019</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.261/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>3H 1MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/aRJAoQ6mqPHAKXjP3CqNyLC8FAh.jpg" alt="" />
-						</div>
-						<h3>Captain Marvel</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2019</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.8/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 3MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg" alt="" />
-						</div>
-						<h3>Ant-Man et la Guêpe : Quantumania</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2023</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.394/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 4MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg" alt="" />
-						</div>
-						<h3>Avengers : Infinity War</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2018</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.253/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 29MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg" alt="" />
-						</div>
-						<h3>Black Panther</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2018</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.388/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 14MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/mAA8RXkgF87jSWWMSf6hgLl73mk.jpg" alt="" />
-						</div>
-						<h3>Thor : Ragnarok</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2017</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.595/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 10MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/77Z0g5fc1qWJ7SfHyeiHsMkYx5O.jpg" alt="" />
-						</div>
-						<h3>Spider-Man : Homecoming</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2017</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.343/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 13MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="" />
-						</div>
-						<h3>Les Gardiens de la Galaxie : Volume 3</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2023</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.003/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 29MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg" alt="" />
-						</div>
-						<h3>Doctor Strange</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2016</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.427/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 55MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/py8Js6LEl10XhUjkoOj6UGRrSFp.jpg" alt="" />
-						</div>
-						<h3>Captain America : Civil War</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2016</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.443/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 28MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/hAH2Rt2WvfMBK2tZDLMNuUTUwxG.jpg" alt="" />
-						</div>
-						<h3>Ant-Man</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2015</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.081/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 58MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/rbJGuPedx0aDhyFlKAIJG7I6hrg.jpg" alt="" />
-						</div>
-						<h3>Avengers : L'Ère d'Ultron</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2015</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.274/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 23MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="" />
-						</div>
-						<h3>Les Gardiens de la Galaxie : Volume 3</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2023</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.003/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 29MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/zCkOSBWsKyj7ieV4eR0BqMBFoRF.jpg" alt="" />
-						</div>
-						<h3>Captain America : Le Soldat de l'hiver</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2014</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.67/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 16MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/eAIGX0nlwlb5sMb4uDRGNFqMyG9.jpg" alt="" />
-						</div>
-						<h3>Thor : Le Monde des ténèbres</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2013</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.535/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 52MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/nnn7i15De88Lj4jyY3H03P3aUTz.jpg" alt="" />
-						</div>
-						<h3>Iron Man 3</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2013</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.928/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 10MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg" alt="" />
-						</div>
-						<h3>Avengers : Infinity War</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2018</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>8.253/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 29MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg" alt="" />
-						</div>
-						<h3>Captain America : First Avenger</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2011</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.996/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 4MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/q8pF6s9b9veTQvxTqMDIQf9nJKi.jpg" alt="" />
-						</div>
-						<h3>Thor</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2011</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.767/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 55MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/g9DSeSozGi4zpUyeOYZYMNmIv9O.jpg" alt="" />
-						</div>
-						<h3>Iron Man 2</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2010</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.836/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 57MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/7zEWoMDAgvgHlv1D11vF3Br3ZTd.jpg" alt="" />
-						</div>
-						<h3>L'Incroyable Hulk</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2008</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>6.208/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>1H 52MIN</h4>
-							</div>
-						</div>
-					</div>
-					<div class="movieCard">
-						<div class="imgBox"><img
-								src="https://image.tmdb.org/t/p/original/egEkFOCl87aHJLkIGXGxzNdpQV3.jpg" alt="" />
-						</div>
-						<h3>Iron Man</h3>
-						<div class="movieInfo">
-							<div class="year">
-								<h5>Year</h5>
-								<h4>2008</h4>
-							</div>
-							<div class="rate">
-								<h5>Rate</h5>
-								<h4>7.64/10</h4>
-							</div>
-							<div class="lenght">
-								<h5>Lenght</h5>
-								<h4>2H 5MIN</h4>
-							</div>
-						</div>
-					</div>
-
-				</article>
-				<aside>
-					<a href="https://www.disneyplus.com">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-						<img src="/images/disney_logo.jpeg" alt="disney logo">
-					</a>
-
-				</aside>
-			</div>
-
-
-
-
-
-		</section>
-	</main>
-	<!-- <footer style="position: absolute; width: 100%; bottom: 0">
+						<table>
+							<tr>
+								<th>Ordre de Sortie</th>
+								<th>Titre</th>
+								<th>Année</th>
+								<th>Recette ($)</th>
+							</tr>
+							<tr>
+								<td>22</td>
+								<td><a href="#AvengersEndgame">Avengers: Endgame</a></td>
+								<td>2019</td>
+								<td>2 799 439 100</td>
+							</tr>
+							<tr>
+								<td>19</td>
+								<td><a href="#AvengersInfinityWar">Avengers: Infinity War</a></td>
+								<td>2018</td>
+								<td>2 052 415 039</td>
+							</tr>
+							<tr>
+								<td>11</td>
+								<td><a href="#AvengersLEreUltron">Avengers: L'Ère d'Ultron</a></td>
+								<td>2015</td>
+								<td>1 407 615 874</td>
+							</tr>
+							<tr>
+								<td>18</td>
+								<td><a href="#BlackPanther">Black Panther</a></td>
+								<td>2018</td>
+								<td>1 382 248 826</td>
+							</tr>
+							<tr>
+								<td>13</td>
+								<td><a href="#CaptainAmericaCivilWar">Captain America: Civil War</a></td>
+								<td>2016</td>
+								<td>1 155 046 416</td>
+							</tr>
+							<tr>
+								<td>23</td>
+								<td><a href="#SpiderManFarFromHome">Spider-Man: Far From Home</a></td>
+								<td>2019</td>
+								<td>1 131 927 996</td>
+							</tr>
+							<tr>
+								<td>21</td>
+								<td><a href="#CaptainMarvel">Captain Marvel</a></td>
+								<td>2019</td>
+								<td>1 131 416 446</td>
+							</tr>
+						</table>
+					</article>
+				</div>
+			</section>
+			<section class="marvelMovies">
+				<h2>Marvel Movies</h2>
+				<div class="flex">
+					<article class="movieList">
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/mqAQO6j5gkq6iwCXNbXpzf0RXBU.jpg" alt="" /></div>
+							<h3>The Marvels</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2023</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.509/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 45MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="" /></div>
+							<h3>Les Gardiens de la Galaxie : Volume 3</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2023</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.003/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 29MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg" alt="" /></div>
+							<h3>Ant-Man et la Guêpe : Quantumania</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2023</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.394/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 4MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg" alt="" /></div>
+							<h3>Black Panther : Wakanda Forever</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2022</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.165/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 41MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/kSMarEm3ESOOr11dzsep2RZ1ClD.jpg" alt="" /></div>
+							<h3>Thor : Love and Thunder</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2022</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.5/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 58MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/arfzjn1tGvXWwkX7eaGVuXsc0mp.jpg" alt="" /></div>
+							<h3>Doctor Strange in the Multiverse of Madness</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2022</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.34/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 6MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/3SyG7dq2q0ollxJ4pSsrqcfRmVj.jpg" alt="" /></div>
+							<h3>Spider-Man : No Way Home</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2021</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.0/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 28MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/uYh5Z0BwU04WMmrPYLFEfFQWfw0.jpg" alt="" /></div>
+							<h3>Les Éternels</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2021</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.913/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 36MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/g54eUtuCTAOQaNlVpr7Kpr7sVoH.jpg" alt="" /></div>
+							<h3>Shang-Chi et la Légende des Dix Anneaux</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2021</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.579/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 11MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/tIdq9lGrbSsq3RkgB9r0g0vYTbl.jpg" alt="" /></div>
+							<h3>Black Widow</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2021</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.3/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 13MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="SpiderManFarFromHome">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/zrNKUa5SBUwue39coJArNdDgQJM.jpg" alt="" /></div>
+							<h3>Spider-Man : Far From Home</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2019</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.443/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 9MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="AvengersEndgame">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg" alt="" /></div>
+							<h3>Avengers : Endgame</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2019</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.261/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>3H 1MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="CaptainMarvel">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/aRJAoQ6mqPHAKXjP3CqNyLC8FAh.jpg" alt="" /></div>
+							<h3>Captain Marvel</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2019</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.8/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 3MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg" alt="" /></div>
+							<h3>Ant-Man et la Guêpe : Quantumania</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2023</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.394/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 4MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="AvengersInfinityWar">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg" alt="" /></div>
+							<h3>Avengers : Infinity War</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2018</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.253/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 29MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="BlackPanther">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/g94IcdzPswTYl1ISdgn2EwvaZtt.jpg" alt="" /></div>
+							<h3>Black Panther</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2018</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.388/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 14MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/mAA8RXkgF87jSWWMSf6hgLl73mk.jpg" alt="" /></div>
+							<h3>Thor : Ragnarok</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2017</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.595/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 10MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/77Z0g5fc1qWJ7SfHyeiHsMkYx5O.jpg" alt="" /></div>
+							<h3>Spider-Man : Homecoming</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2017</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.343/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 13MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="" /></div>
+							<h3>Les Gardiens de la Galaxie : Volume 3</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2023</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.003/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 29MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/7wZ7mx7tY5SgflQKuJmQvwu3wGm.jpg" alt="" /></div>
+							<h3>Doctor Strange</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2016</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.427/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 55MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="CaptainAmericaCivilWar">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/py8Js6LEl10XhUjkoOj6UGRrSFp.jpg" alt="" /></div>
+							<h3>Captain America : Civil War</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2016</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.443/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 28MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/hAH2Rt2WvfMBK2tZDLMNuUTUwxG.jpg" alt="" /></div>
+							<h3>Ant-Man</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2015</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.081/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 58MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard" id="AvengersLEreUltron">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/rbJGuPedx0aDhyFlKAIJG7I6hrg.jpg" alt="" /></div>
+							<h3>Avengers : L'Ère d'Ultron</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2015</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.274/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 23MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="" /></div>
+							<h3>Les Gardiens de la Galaxie : Volume 3</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2023</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.003/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 29MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/zCkOSBWsKyj7ieV4eR0BqMBFoRF.jpg" alt="" /></div>
+							<h3>Captain America : Le Soldat de l'hiver</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2014</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.67/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 16MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/eAIGX0nlwlb5sMb4uDRGNFqMyG9.jpg" alt="" /></div>
+							<h3>Thor : Le Monde des ténèbres</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2013</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.535/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 52MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/nnn7i15De88Lj4jyY3H03P3aUTz.jpg" alt="" /></div>
+							<h3>Iron Man 3</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2013</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.928/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 10MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/hSfuKPtyEryeFzapZ8UgZd4aESu.jpg" alt="" /></div>
+							<h3>Avengers : Infinity War</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2018</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>8.253/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 29MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/l1SP3gyHA5ZEuf72WKx5ihtZZFO.jpg" alt="" /></div>
+							<h3>Captain America : First Avenger</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2011</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.996/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 4MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/q8pF6s9b9veTQvxTqMDIQf9nJKi.jpg" alt="" /></div>
+							<h3>Thor</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2011</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.767/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 55MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/g9DSeSozGi4zpUyeOYZYMNmIv9O.jpg" alt="" /></div>
+							<h3>Iron Man 2</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2010</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.836/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 57MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/7zEWoMDAgvgHlv1D11vF3Br3ZTd.jpg" alt="" /></div>
+							<h3>L'Incroyable Hulk</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2008</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>6.208/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>1H 52MIN</h4>
+								</div>
+							</div>
+						</div>
+						<div class="movieCard">
+							<div class="imgBox"><img src="https://image.tmdb.org/t/p/original/egEkFOCl87aHJLkIGXGxzNdpQV3.jpg" alt="" /></div>
+							<h3>Iron Man</h3>
+							<div class="movieInfo">
+								<div class="year">
+									<h5>Year</h5>
+									<h4>2008</h4>
+								</div>
+								<div class="rate">
+									<h5>Rate</h5>
+									<h4>7.64/10</h4>
+								</div>
+								<div class="lenght">
+									<h5>Lenght</h5>
+									<h4>2H 5MIN</h4>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+		</main>
+		<!-- <footer style="position: absolute; width: 100%; bottom: 0">
 			<p>
 				Coded by
 				<a href="https://github.com/Dwesh163" target="_blank" class="underline">
@@ -809,6 +719,5 @@
 				</a>
 			</p>
 		</footer> -->
-</body>
-
+	</body>
 </html>

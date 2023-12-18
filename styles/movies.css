@@ -16,10 +16,39 @@ body {
 
 .flex {
 	display: flex;
+	justify-content: center;
+}
+
+table {
+	width: 100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(161, 161, 161);
+}
+
+th,
+td {
+	padding: 8px;
+	border: 1px solid #fff;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+th {
+	background-color: #333;
 }
 
 .aboutUs {
-	height: 600px;
+	height: 700px;
+	padding: 20px;
 }
 
 .aboutUs h2 {
@@ -36,6 +65,14 @@ body {
 
 .aboutUsInfo {
 	width: 50%;
+	color: #fff;
+	padding: 22px;
+}
+
+.aboutUsInfo h2 {
+	padding: 0px;
+	margin-bottom: 12px;
+	font-size: 1.3em;
 }
 
 .aboutUsText {
@@ -57,17 +94,11 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	max-width: 1600px;
 }
 
-aside {
-	background-color: #020e40;
-	width: auto;
-}
-
-aside a {}
-
-aside img {
-	width: 200px;
+.red {
+	background-color: red;
 }
 
 .marvelMovies h2 {
@@ -118,6 +149,15 @@ h3 {
 	text-transform: uppercase;
 }
 
+.copyright {
+	font-size: 0.9em;
+}
+
+@media only screen and (max-width: 480px) {
+	.aboutUs {
+		height: 110vh !important;
+	}
+}
 
 @media only screen and (max-width: 767px) {
 	aside img {
@@ -137,8 +177,22 @@ h3 {
 	.movieCard {
 		width: 100%;
 	}
-}
 
+	.aboutUsInfo {
+		width: 100%;
+	}
+	.aboutUsText {
+		width: 100%;
+	}
+
+	.aboutUs {
+		height: 96vh;
+	}
+
+	.text {
+		flex-wrap: wrap;
+	}
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	.movieCard {
@@ -155,5 +209,8 @@ h3 {
 @media only screen and (min-width: 1601px) {
 	.movieCard {
 		width: 31%;
+	}
+	.aboutUsText {
+		margin-top: 2%;
 	}
 }
