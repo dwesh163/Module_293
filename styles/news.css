@@ -1,16 +1,119 @@
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: #1e1e1e;
 	color: #fff;
 	margin: 0;
 	padding: 0;
 }
 
-@media only screen and (max-width: 767px) {
+/* ... (les médias queries peuvent être ajoutées ici si nécessaire) ... */
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+article {
+	background-color: #333;
+	border-radius: 12px;
+	padding: 20px;
+	margin: 20px 0;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (min-width: 1024px) {
+article h3 {
+	color: #fff;
+}
+
+article p {
+	color: #ccc;
+}
+
+#outils {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+#tri-select {
+	padding: 10px;
+	border-radius: 8px;
+}
+
+#filtres {
+	display: flex;
+}
+
+.filtre {
+	margin-right: 10px;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: #555;
+	color: #fff;
+}
+
+.filtre:hover {
+	background-color: #777;
+}
+
+#histoire-marvel {
+	background-color: #1e1e1e;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+}
+
+#histoire-marvel p {
+	color: #fff;
+}
+
+/* Style pour le carrousel d'images */
+#carousel {
+	width: 100%;
+	overflow: hidden;
+	border-radius: 12px;
+	margin-bottom: 20px;
+}
+
+#carousel img {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	transition: transform 0.5s ease-in-out;
+}
+
+/* Style pour les flèches de navigation du carrousel */
+#prev,
+#next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 24px;
+	color: #fff;
+}
+
+#prev {
+	left: 10px;
+}
+
+#next {
+	right: 10px;
+}
+
+/* Style pour la section Histoire Marvel */
+#histoire-marvel {
+	background-color: #1e1e1e;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+}
+
+#histoire-marvel p {
+	color: #fff;
 }

@@ -28,32 +28,91 @@
 				</label>
 
 				<div class="menu">
-					<a href="/"><i class="fas fa-home"></i>Home</a>
-					<a href="/page/movies.html"><i class="fas fa-film"></i>Movies</a>
-					<a href="/page/contact.html"><i class="fas fa-envelope"></i>Contact</a>
-					<a href="/page/info.html" ><i class="fas fa-info-circle"></i>Info</a>
-					<a href="/page/news.html" class="current"><i class="fas fa-newspaper"></i></i>news</a>
+					<a href="../"><i class="fas fa-home"></i>Accueil</a>
+					<a href="./movies.html"><i class="fas fa-film"></i>Films</a>
+					<a href="./contact.html"><i class="fas fa-envelope"></i>Contact</a>
+					<a href="./info.html"><i class="fas fa-info-circle"></i>Info</a>
+					<a href="./news.html" class="current"><i class="fas fa-newspaper"></i>News</a>
 				</div>
 			</nav>
 		</header>
-	</body>
-	<footer>
-		<p>&copy; 2023 Marvel Studio. All rights reserved.</p>
-		<p><a href="">Conditions d'utilisation</a> / <a href="">Protection des données</a> / <a href="">Other Legal Information</a></p>
+		<main>
+			<section id="outils">
+				<div id="tri">
+					<label for="tri-select">Trier par :</label>
+					<select id="tri-select">
+						<option value="date">Date</option>
+						<!-- Ajoutez d'autres options de tri selon vos besoins -->
+					</select>
+				</div>
 
-		<div class="people">
-			<h3>Ehouarn Duriaux</h3>
-			<div class="social-links">
-				<a href="mailto:ehouarn.duriaux@eduvaud.ch">
-					<i class="fa fa-envelope"></i>
-				</a>
-				<a href="https://github.com/Dwesh163" target="_blank">
-					<i class="fa-brands fa-github"></i>
-				</a>
-				<a href="https://instagram.com/e.hou3" target="_blank">
-					<i class="fa-brands fa-instagram"></i>
-				</a>
+				<div id="filtres">
+					<div class="filtre" data-categorie="films">Films</div>
+					<div class="filtre" data-categorie="interviews">Interviews</div>
+					<!-- Ajoutez d'autres filtres selon vos besoins -->
+				</div>
+			</section>
+
+			<!-- Carrousel d'images -->
+			<div id="carousel">
+				<!-- Ajoutez des images pour le carrousel ici -->
+				<img src="/images/carousel1.jpg" alt="Image 1" />
+				<img src="/images/carousel2.jpg" alt="Image 2" />
+				<img src="/images/carousel3.jpg" alt="Image 3" />
 			</div>
-		</div>
-	</footer>
+
+			<!-- Articles avec style de carte -->
+			<article>
+				<!-- Carrousel d'images pour chaque article -->
+				<div class="article-carousel">
+					<img src="/images/article1_1.jpg" alt="Article 1 Image 1" />
+					<img src="/images/article1_2.jpg" alt="Article 1 Image 2" />
+					<img src="/images/article1_3.jpg" alt="Article 1 Image 3" />
+				</div>
+
+				<h3>Nouveau Film Marvel Annoncé</h3>
+				<p>Marvel Studios a récemment annoncé la sortie d'un nouveau film captivant. Découvrez tous les détails ici.</p>
+			</article>
+
+			<article>
+				<!-- Carrousel d'images pour chaque article -->
+				<div class="article-carousel">
+					<img src="/images/article2_1.jpg" alt="Article 2 Image 1" />
+					<img src="/images/article2_2.jpg" alt="Article 2 Image 2" />
+					<img src="/images/article2_3.jpg" alt="Article 2 Image 3" />
+				</div>
+
+				<h3>Entrevue avec une Star de Marvel</h3>
+				<p>Nous avons eu l'occasion de discuter avec l'une des stars de Marvel sur le tournage du dernier film. Lisez l'interview exclusive.</p>
+			</article>
+
+			<!-- Ajoutez d'autres articles avec des carrousels d'images et du contenu ici -->
+
+			<section id="histoire-marvel">
+				<h2>Histoire de Marvel</h2>
+				<p>Explorez l'histoire fascinante de Marvel Studios, des débuts modestes aux blockbusters mondiaux.</p>
+				<!-- Ajoutez plus de contenu sur l'histoire de Marvel ici -->
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2023 Marvel Studio. All rights reserved.</p>
+			<p><a href="">Conditions d'utilisation</a> / <a href="">Protection des données</a> / <a href="">Autres informations légales</a></p>
+
+			<div class="people">
+				<h3>Ehouarn Duriaux</h3>
+				<div class="social-links">
+					<a href="mailto:ehouarn.duriaux@eduvaud.ch">
+						<i class="fa fa-envelope"></i>
+					</a>
+					<a href="https://github.com/Dwesh163" target="_blank">
+						<i class="fa-brands fa-github"></i>
+					</a>
+					<a href="https://instagram.com/e.hou3" target="_blank">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
