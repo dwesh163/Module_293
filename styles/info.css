@@ -145,6 +145,11 @@ a:hover {
 	font-size: 1.6em;
 }
 
+#avengers,
+#avengers article {
+	height: 500px;
+}
+
 @media only screen and (max-width: 767px) {
 	p {
 		font-size: 1em;
@@ -176,6 +181,11 @@ a:hover {
 	}
 
 	#spider-man article {
+		height: 800px;
+	}
+
+	#avengers,
+	#avengers article {
 		height: 800px;
 	}
 }

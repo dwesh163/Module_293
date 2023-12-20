@@ -4,9 +4,6 @@
 }
 
 main {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	color: #fff;
 }
 
@@ -94,4 +91,52 @@ section {
 
 .movies .movie:hover .movieInfo {
 	transform: translateY(0%);
+}
+
+.newsBox {
+	background-color: #333;
+	border-radius: 12px;
+	padding: 20px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	text-align: left;
+	width: 80%;
+	margin: auto;
+}
+
+.newsBox h3 {
+	color: #fff;
+}
+
+.newsBox p {
+	color: #ccc;
+}
+
+#histoire-marvel {
+	background-color: #1e1e1e;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+}
+
+#histoire-marvel p {
+	color: #fff;
+}
+
+.toTop a {
+	padding: 12px 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(161, 161, 161);
+}
+
+.date {
+	font-size: 0.8em;
+	font-weight: 100;
 }
