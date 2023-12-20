@@ -20,10 +20,10 @@ body {
 	margin: 0;
 }
 
-h2 {
+.textLabel {
 	font-size: 1em;
 	font-weight: 500;
-	margin-bottom: 8px;
+	margin-bottom: 22px;
 }
 
 form {
@@ -37,12 +37,12 @@ form {
 	margin-top: 25%;
 }
 
-form article {
+form div {
 	width: 100%;
 	margin-top: 2px;
 }
 
-form article label {
+form div label {
 	padding-bottom: 22px;
 	color: #000;
 	font-size: 1em;
@@ -50,7 +50,7 @@ form article label {
 	line-height: normal;
 }
 
-form article input {
+form div input {
 	height: 3rem;
 	border-radius: 7.983px;
 	border: 0.2px solid rgba(70, 79, 93, 0.4);
@@ -65,7 +65,7 @@ form article input {
 	width: 100%;
 }
 
-form article input::placeholder {
+form div input::placeholder {
 	font-size: 1.1em;
 }
 
@@ -153,6 +153,16 @@ form .nameBox {
 
 .checkboxLabel:checked + .buttonBox .submit {
 	background-color: #007bff;
+}
+
+input[type="checkbox" i] {
+    background-color: initial !important;
+    cursor: default !important;
+    appearance: auto !important;
+    box-sizing: border-box !important;
+    margin: 3px 3px 3px 4px !important;
+    padding: initial !important;
+    border: initial !important;
 }
 
 footer {

@@ -1,45 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="../styles/info.css" />
-		<link rel="stylesheet" href="../styles/header.css" />
-		<link rel="stylesheet" href="../styles/footer.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
-" />
-	</head>
+<html lang="fr">
 
-	<body>
-		<header>
-			<a href="../index.html">
-				<img src="../images/Marvel_Logo.png" alt="" />
-			</a>
-			<nav>
-				<input type="checkbox" class="burgerMenu" id="burgerCheckbox" />
-				<label for="burgerCheckbox" class="burgerLabel">
-					<div class="burgerIcon"></div>
-					<div class="burgerIcon"></div>
-					<div class="burgerIcon"></div>
-				</label>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../styles/info.css">
+	<link rel="stylesheet" href="../styles/header.css">
+	<link rel="stylesheet" href="../styles/footer.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+">
+</head>
 
-				<div class="menu">
-					<a href="../"><i class="fas fa-home"></i>Accueil</a>
-					<a href="./movies.html"><i class="fas fa-film"></i>Films</a>
-					<a href="./contact.html"><i class="fas fa-envelope"></i>Contact</a>
-					<a href="./info.html" class="current"><i class="fas fa-info-circle"></i>Info</a>
-					<a href="./news.html"><i class="fas fa-newspaper"></i>News</a>
-				</div>
-			</nav>
-		</header>
+<body>
+	<header>
+		<a href="../index.html">
+			<img src="../images/Marvel_Logo.png" alt="">
+		</a>
+		<nav>
+			<input type="checkbox" class="burgerMenu" id="burgerCheckbox">
+			<label for="burgerCheckbox" class="burgerLabel">
+				<span class="burgerIcon"></span>
+				<span class="burgerIcon"></span>
+				<span class="burgerIcon"></span>
+			</label>
+
+			<div class="menu">
+				<a href="../"><i class="fas fa-home"></i>Accueil</a>
+				<a href="./movies.html"><i class="fas fa-film"></i>Films</a>
+				<a href="./contact.html"><i class="fas fa-envelope"></i>Contact</a>
+				<a href="./info.html" class="current"><i class="fas fa-info-circle"></i>Info</a>
+				<a href="./news.html"><i class="fas fa-newspaper"></i>News</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
 
 		<section id="welcome">
 			<h2>À propos de Marvel</h2>
-			<p>Bienvenue sur cette page consacrée aux anecdotes sur l'univers Marvel. Explorez le monde passionnant des super-héros et des aventures épiques !</p>
+			<p>Bienvenue sur cette page consacrée aux anecdotes sur l'univers Marvel. Explorez le monde passionnant des
+				super-héros et des aventures épiques !</p>
 			<div id="tableContents">
 				<a href="#IronMan">Armure d'Iron Man</a>
 				<a href="#avengers">Les Avengers</a>
@@ -50,161 +52,171 @@
 			</div>
 		</section>
 
-		<section class="gray" id="IronMan">
-			<article>
-				<div class="content">
-					<h2>Armure d'Iron Man</h2>
-					<p>Robert Downey Jr. ne porte l’armure d’Iron Man uniquement dans le premier volet de la franchise.</p>
+		<article class="gray" id="IronMan">
+			<div class="content">
+				<h2>Armure d'Iron Man</h2>
+				<p>Robert Downey Jr. ne porte l’armure d’Iron Man uniquement dans le premier volet de la franchise.</p>
 
-					<p>Beaucoup trop lourde et contraignante à revêtir, elle est ensuite remplacée par de la CGI dans les plans larges et un « football suit » (un casque et des épaulettes) pour les plans serrés.</p>
-				</div>
-				<div class="media">
-					<video controls>
-						<source src="/video/IronMan.mp4" type="video/mp4" />
-					</video>
-				</div>
-			</article>
-		</section>
+				<p>Beaucoup trop lourde et contraignante à revêtir, elle est ensuite remplacée par de la CGI dans les
+					plans
+					larges et un « football suit » (un casque et des épaulettes) pour les plans serrés.</p>
+			</div>
+			<div class="media">
+				<video controls>
+					<source src="/video/IronMan.mp4" type="video/mp4">
+				</video>
+			</div>
+		</article>
 
-		<section id="avengers">
-			<article>
-				<div class="media flex">
-					<table>
-						<tr>
-							<th>Membre</th>
-							<th>Rôle</th>
-							<th>Nombre d'apparitions</th>
-							<th>Date de première apparition</th>
-						</tr>
-						<tr>
-							<td>Captain America</td>
-							<td>Leader</td>
-							<td>9</td>
-							<td>Juillet 2011</td>
-						</tr>
-						<tr>
-							<td>Thor</td>
-							<td>Dieu du Tonnerre</td>
-							<td>8</td>
-							<td>Mai 2011</td>
-						</tr>
-						<tr>
-							<td>Hulk</td>
-							<td>Le plus fort des Avengers</td>
-							<td>6</td>
-							<td>Juin 2008</td>
-						</tr>
-						<tr>
-							<td>Black Widow</td>
-							<td>Espionne</td>
-							<td>8</td>
-							<td>Mai 2010</td>
-						</tr>
-						<tr>
-							<td>Iron Man</td>
-							<td>Génie</td>
-							<td>11</td>
-							<td>Mai 2008</td>
-						</tr>
-						<tr>
-							<td>Spider-Man</td>
-							<td>Le voisin sympa</td>
-							<td>9</td>
-							<td>Juillet 2017</td>
-						</tr>
-						<tr>
-							<td>Captain Marvel</td>
-							<td>Héroïne cosmique</td>
-							<td>2</td>
-							<td>Mars 2019</td>
-						</tr>
-						<tr>
-							<td>Black Panther</td>
-							<td>Roi du Wakanda</td>
-							<td>4</td>
-							<td>Juillet 2016</td>
-						</tr>
-						<tr>
-							<td>Doctor Strange</td>
-							<td>Sorcier Suprême</td>
-							<td>4</td>
-							<td>Novembre 2016</td>
-						</tr>
-					</table>
-					<p><a href="https://www.allocine.fr/diaporamas/cinema/diaporama-18708392/">www.allocine.fr/diaporamas</a></p>
-				</div>
-				<div class="content">
-					<h2>Les Avengers</h2>
-					<p>Grâce à son ultime apparition dans Avengers : Endgame, Robert Downey Jr. est officiellement devenu l’acteur qui a interprété le plus grand nombre de fois le même superhéros à l’écran, avec 11 apparitions au total en Iron Man, devant Hugh Jackman (10 apparitions dans le rôle de Wolverine).</p>
-				</div>
-			</article>
-		</section>
+		<article id="avengers">
+			<div class="media flex">
+				<table>
+					<tr>
+						<th>Membre</th>
+						<th>Rôle</th>
+						<th>Nombre d'apparitions</th>
+						<th>Date de première apparition</th>
+					</tr>
+					<tr>
+						<td>Captain America</td>
+						<td>Leader</td>
+						<td>9</td>
+						<td>Juillet 2011</td>
+					</tr>
+					<tr>
+						<td>Thor</td>
+						<td>Dieu du Tonnerre</td>
+						<td>8</td>
+						<td>Mai 2011</td>
+					</tr>
+					<tr>
+						<td>Hulk</td>
+						<td>Le plus fort des Avengers</td>
+						<td>6</td>
+						<td>Juin 2008</td>
+					</tr>
+					<tr>
+						<td>Black Widow</td>
+						<td>Espionne</td>
+						<td>8</td>
+						<td>Mai 2010</td>
+					</tr>
+					<tr>
+						<td>Iron Man</td>
+						<td>Génie</td>
+						<td>11</td>
+						<td>Mai 2008</td>
+					</tr>
+					<tr>
+						<td>Spider-Man</td>
+						<td>Le voisin sympa</td>
+						<td>9</td>
+						<td>Juillet 2017</td>
+					</tr>
+					<tr>
+						<td>Captain Marvel</td>
+						<td>Héroïne cosmique</td>
+						<td>2</td>
+						<td>Mars 2019</td>
+					</tr>
+					<tr>
+						<td>Black Panther</td>
+						<td>Roi du Wakanda</td>
+						<td>4</td>
+						<td>Juillet 2016</td>
+					</tr>
+					<tr>
+						<td>Doctor Strange</td>
+						<td>Sorcier Suprême</td>
+						<td>4</td>
+						<td>Novembre 2016</td>
+					</tr>
+				</table>
+				<p><a
+						href="https://www.allocine.fr/diaporamas/cinema/diaporama-18708392/">www.allocine.fr/diaporamas</a>
+				</p>
+			</div>
+			<div class="content">
+				<h2>Les Avengers</h2>
+				<p>Grâce à son ultime apparition dans Avengers : Endgame, Robert Downey Jr. est officiellement devenu
+					l’acteur qui a interprété le plus grand nombre de fois le même superhéros à l’écran, avec 11
+					apparitions
+					au total en Iron Man, devant Hugh Jackman (10 apparitions dans le rôle de Wolverine).</p>
+			</div>
+		</article>
 
-		<section class="gray" id="thanos">
-			<article>
-				<div class="content">
-					<h2>Le Gant de l'infini</h2>
-					<p>Aperçu brièvement pour la première fois dans le Thor en 2011 dans la chambre forte d’Odin, le Gant de l’Infini était un gant droit, alors que Thanos porte le sien à la main gauche durant toute la saga.</p>
+		<article class="gray" id="thanos">
+			<div class="content">
+				<h2>Le Gant de l'infini</h2>
+				<p>Aperçu brièvement pour la première fois dans le Thor en 2011 dans la chambre forte d’Odin, le Gant de
+					l’Infini était un gant droit, alors que Thanos porte le sien à la main gauche durant toute la saga.
+				</p>
 
-					<p>Comme quoi, Hela a bien eu raison de le jeter par terre.</p>
-				</div>
-				<div class="media flex">
-					<img src="/images/thanos.jpg" alt="Thanos" />
-					<p>thanos image</p>
-				</div>
-			</article>
-		</section>
+				<p>Comme quoi, Hela a bien eu raison de le jeter par terre.</p>
+			</div>
+			<div class="media flex">
+				<img src="/images/thanos.jpg" alt="Thanos">
+				<p>thanos image</p>
+			</div>
+		</article>
 
-		<section id="NickFuryTombe">
-			<article>
-				<div class="media flex">
-					<img src="/images/nickFury.jpg" alt="La tombe de Nick Fury" />
-					<p>La tombe de Nick Fury</p>
-				</div>
-				<div class="content">
-					<h2>La tombe de Nick Fury</h2>
-					<p>Après la fausse mort de Nick Fury (Samuel L. Jackson), il peut être lu sur sa pierre tombale le 17ème verset du 25ème chapitre du Livre d’Ezéchiel (« The path of the righteous man… »), ce même verset que récite Jules (Samuel L. Jackson) dans Pulp Fiction.</p>
-				</div>
-			</article>
-		</section>
+		<article id="NickFuryTombe">
+			<div class="media flex">
+				<img src="/images/nickFury.jpg" alt="La tombe de Nick Fury">
+				<p>La tombe de Nick Fury</p>
+			</div>
+			<div class="content">
+				<h2>La tombe de Nick Fury</h2>
+				<p>Après la fausse mort de Nick Fury (Samuel L. Jackson), il peut être lu sur sa pierre tombale le 17ème
+					verset du 25ème chapitre du Livre d’Ezéchiel (« The path of the righteous man… »), ce même verset
+					que
+					récite Jules (Samuel L. Jackson) dans Pulp Fiction.</p>
+			</div>
+		</article>
 
-		<section class="gray" id="BlackSabbath">
-			<article>
-				<div class="content">
-					<h2>Black Sabbath dans Avengers</h2>
-					<p>Alors que dans le premier Iron Man on peut entendre la chanson Iron Man de Black Sabbath quand Iron Man...</p>
-				</div>
-				<div class="media">
-					<audio controls>
-						<source src="/audio/Black-Sabbath.mp3" type="audio/mp3" />
-						Votre navigateur ne prend pas en charge l'élément audio.
-					</audio>
-				</div>
-			</article>
-		</section>
+		<article class="gray" id="BlackSabbath">
+			<div class="content">
+				<h2>Black Sabbath dans Avengers</h2>
+				<p>Alors que dans le premier Iron Man on peut entendre la chanson Iron Man de Black Sabbath quand Iron
+					Man...</p>
+			</div>
+			<div class="media">
+				<audio controls>
+					<source src="/audio/Black-Sabbath.mp3" type="audio/mp3">
+					Votre navigateur ne prend pas en charge l'élément audio.
+				</audio>
+			</div>
+		</article>
 
-		<section id="postCredits">
-			<article>
-				<div class="media flex">
-					<img src="/images/avengers.png" alt="" />
-					<p>La scène post-crédits, tirée du film The Avengers (2012)</p>
-				</div>
-				<div class="content">
-					<h2>La scène post-crédits</h2>
-					<p>Dans la scène post crédit du premier Avengers, si seul Chris Evans n’est pas vu manger du shawarma c’est parce qu’il a dû renfiler le costume de Captain America alors même qu’il avait quitté le tournage plusieurs semaines auparavant. Problème : il s’était entretemps laissé pousser la barbe pour le film Snowpiercer qu’il tournait au même moment. Pour masquer cette pilosité nouvelle, il porte une prothèse autour de la mâchoire et masque sa bouche avec la main. Impossible pour lui de mastiquer donc.</p>
-				</div>
-			</article>
-		</section>
+		<article id="postCredits">
+			<div class="media flex">
+				<img src="/images/avengers.png" alt="">
+				<p>La scène post-crédits, tirée du film The Avengers (2012)</p>
+			</div>
+			<div class="content">
+				<h2>La scène post-crédits</h2>
+				<p>Dans la scène post crédit du premier Avengers, si seul Chris Evans n’est pas vu manger du shawarma
+					c’est
+					parce qu’il a dû renfiler le costume de Captain America alors même qu’il avait quitté le tournage
+					plusieurs semaines auparavant. Problème : il s’était entretemps laissé pousser la barbe pour le film
+					Snowpiercer qu’il tournait au même moment. Pour masquer cette pilosité nouvelle, il porte une
+					prothèse
+					autour de la mâchoire et masque sa bouche avec la main. Impossible pour lui de mastiquer donc.</p>
+			</div>
+		</article>
 
-		<section class="toTop">
+		<div class="toTop">
 			<a href="#top">
 				<i class="fa-solid fa-arrow-up"></i>
 			</a>
-		</section>
-	</body>
+		</div>
+	</main>
+
 	<footer>
 		<p>&copy; 2023 Marvel Studio. All rights reserved.</p>
-		<p><a href="">Conditions d'utilisation</a> / <a href="">Protection des données</a> / <a href="">Autres informations légales</a></p>
+		<p><a href="">Conditions d'utilisation</a> / <a href="">Protection des données</a> / <a href="">Autres
+				informations
+				légales</a></p>
 
 		<div class="people">
 			<h3>Ehouarn Duriaux</h3>
@@ -221,4 +233,6 @@
 			</div>
 		</div>
 	</footer>
+</body>
+
 </html>

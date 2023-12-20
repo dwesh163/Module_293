@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
-		<link rel="stylesheet" href="../styles/contact.css" />
-		<link rel="stylesheet" href="../styles/header.css" />
-		<link rel="stylesheet" href="../styles/footer.css" />
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="../styles/contact.css">
+		<link rel="stylesheet" href="../styles/header.css">
+		<link rel="stylesheet" href="../styles/footer.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
-	" />
+	">
 	</head>
 
 	<body>
 		<header>
 			<a href="../index.html">
-				<img src="../images/Marvel_Logo.png" alt="" />
+				<img src="../images/Marvel_Logo.png" alt="">
 			</a>
 			<nav>
-				<input type="checkbox" class="burgerMenu" id="burgerCheckbox" />
+				<input type="checkbox" class="burgerMenu" id="burgerCheckbox">
 				<label for="burgerCheckbox" class="burgerLabel">
-					<div class="burgerIcon"></div>
-					<div class="burgerIcon"></div>
-					<div class="burgerIcon"></div>
+					<span class="burgerIcon"></span>
+					<span class="burgerIcon"></span>
+					<span class="burgerIcon"></span>
 				</label>
 
 				<div class="menu">
@@ -37,21 +37,21 @@
 			</nav>
 		</header>
 		<main>
-			<section class="formBox">
-				<form action="" method="get">
-					<article class="informationBox">
-						<label for="information">
-							<h2>Name</h2>
+			<div class="formBox">
+				<form method="get">
+					<div class="informationBox">
+						<label for="informationName">
+							<span class="textLabel">Name</span>
 						</label>
 						<div class="nameBox">
-							<input id="information" placeholder="Fist name" name="fistName" type="text" required />
-							<input id="information" placeholder="Last name" name="lastName" type="text" required />
+							<input id="informationName" placeholder="Fist name" name="fistName" type="text" required>
+							<input id="informationLastName" placeholder="Last name" name="lastName" type="text" required>
 						</div>
-					</article>
+					</div>
 
-					<article class="telBox">
+					<div class="telBox">
 						<label for="tel">
-							<h2>Phone number</h2>
+							<span class="textLabel">Phone number</span>
 						</label>
 						<div class="group">
 							<select id="pays" name="pays">
@@ -104,49 +104,45 @@
 								<option value="za">🇿🇦 +27</option>
 								<option value="us">🇺🇸 +1</option>
 							</select>
-							<input id="tel" placeholder="Phone number" name="tel" type="tel" required />
+							<input id="tel" placeholder="Phone number" name="tel" type="tel" required>
 						</div>
-					</article>
+					</div>
 
-					<article class="emailBox">
+					<div class="emailBox">
 						<label for="email">
-							<h2>Email</h2>
+							<span class="textLabel">Email</span>
 						</label>
-						<input id="email" placeholder="mail@example.com" name="email" type="email" required />
-					</article>
+						<input id="email" placeholder="mail@example.com" name="email" type="email" required>
+					</div>
 
-					<article class="passwordBox">
+					<div class="passwordBox">
 						<label for="password">
-							<h2>Password</h2>
+							<span class="textLabel">Password</span>
 						</label>
-						<input id="password" placeholder="········" name="password" type="password" required />
-					</article>
+						<input id="password" placeholder="········" name="password" type="password" required>
+					</div>
 
-					<article class="InfoBox">
+					<div class="InfoBox">
 						<label for="info">
-							<h2>About Me</h2>
+							<span class="textLabel">About Me</span>
 						</label>
-						<textarea id="info" placeholder="Tell us about yourself..." name="info" type="text"></textarea>
-					</article>
+						<textarea id="info" placeholder="Tell us about yourself..." name="info"></textarea>
+					</div>
 
 					<div class="checkboxBox">
 						<label class="checkboxLabel">
-							<input class="checkbox" type="checkbox" required />
-							I accept the conditions of use
+							<input class="checkbox" type="checkbox" required>
+							J'accepte les conditions d'utilisation
 						</label>
 					</div>
 
 					<div class="buttonBox">
 						<button class="submit" type="submit">
-							Submit
-							<!--from https://icons.getbootstrap.com/-->
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-								<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-							</svg>
+							Submit <i class="fa-solid fa-arrow-right"></i>
 						</button>
 					</div>
 				</form>
-			</section>
+			</div>
 		</main>
 		<footer>
 			<p>&copy; 2023 Marvel Studio. All rights reserved.</p>

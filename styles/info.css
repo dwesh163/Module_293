@@ -33,11 +33,6 @@ body {
 	margin-bottom: 20px;
 }
 
-section {
-	margin: 0;
-	padding: 0;
-}
-
 h2 {
 	color: #fff;
 	font-size: 2em;
@@ -55,7 +50,6 @@ article {
 	overflow: hidden;
 	display: flex;
 	height: 400px;
-	margin: 20px;
 }
 
 .gray {
@@ -122,7 +116,7 @@ iframe {
 	font-size: 1em;
 }
 
-section img {
+article img {
 	width: 80%;
 }
 
@@ -145,8 +139,7 @@ a:hover {
 	font-size: 1.6em;
 }
 
-#avengers,
-#avengers article {
+#avengers {
 	height: 500px;
 }
 
@@ -168,7 +161,7 @@ a:hover {
 		width: 100%;
 	}
 
-	#iron-man article {
+	#iron-man {
 		padding-bottom: 0px;
 	}
 
@@ -180,12 +173,11 @@ a:hover {
 		height: 250px;
 	}
 
-	#spider-man article {
+	#spider-man {
 		height: 800px;
 	}
 
-	#avengers,
-	#avengers article {
+	#avengers {
 		height: 800px;
 	}
 }
