@@ -117,3 +117,16 @@ article p {
 #histoire-marvel p {
 	color: #fff;
 }
+
+.toTop a {
+	padding: 12px 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(161, 161, 161);
+}

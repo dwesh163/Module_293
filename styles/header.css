@@ -37,6 +37,10 @@ header img {
 	height: 100%;
 }
 
+.menu {
+	z-index: 1;
+}
+
 .menu a {
 	margin: 0px 10px;
 }

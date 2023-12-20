@@ -126,6 +126,25 @@ section img {
 	width: 80%;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(161, 161, 161);
+}
+
+.toTop a {
+	padding: 12px 20px;
+}
+
+.toTop {
+	text-align: center;
+	padding: 22px;
+	font-size: 1.6em;
+}
+
 @media only screen and (max-width: 767px) {
 	p {
 		font-size: 1em;
