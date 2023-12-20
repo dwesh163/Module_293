@@ -58,9 +58,13 @@ th {
 	margin: 0px;
 }
 
-.aboutUs p {
+.aboutUs p, ul {
 	color: #fff;
 	padding: 22px;
+}
+
+ul {
+	padding-left: 40px;
 }
 
 .aboutUsInfo {
