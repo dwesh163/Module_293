@@ -51,7 +51,7 @@ th {
 }
 
 .aboutUs {
-	height: 700px;
+	height: 600px;
 	padding: 20px;
 }
 
@@ -65,6 +65,12 @@ th {
 .aboutUs p {
 	padding-top: 0px;
 	margin-top: 0px;
+}
+
+.aboutUs h4 {
+	margin-bottom: 0px;
+	margin-left: 22px;
+	font-size: 1.4em;
 }
 
 .aboutUs p, ul {
@@ -152,9 +158,6 @@ h5 {
 h4 {
 	color: rgb(255, 255, 255);
 	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 22px;
-	font-size: 1.4em;
 }
 
 main h3 {
@@ -179,9 +182,32 @@ main h3 {
 	color: #fff;
 }
 
+.trailer {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 70px;
+}
+
+.trailer iframe {
+	width: 560px;
+	height: 315px;
+}
+
 @media only screen and (max-width: 480px) {
 	.aboutUs {
-		height: 110vh !important;
+		height: 160vh !important;
+	}
+
+	.trailer iframe {
+		width: 280px !important;
+		height: 157px !important;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.trailer iframe {
+		width: 448px;
+		height: 252px;
 	}
 }
 
@@ -212,7 +238,7 @@ main h3 {
 	}
 
 	.aboutUs {
-		height: 96vh;
+		height: 126vh;
 	}
 
 	.text {

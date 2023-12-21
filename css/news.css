@@ -12,10 +12,6 @@ main {
 	padding: 20px;
 }
 
-p {
-	font-weight: 100 !important;
-}
-
 article {
 	background-color: #333;
 	border-radius: 12px;
@@ -59,5 +55,4 @@ a:hover {
 
 .date {
 	font-size: 0.8em;
-	font-weight: 100;
 }

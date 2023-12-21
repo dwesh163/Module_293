@@ -1,4 +1,5 @@
 @import url('https://fonts.movies .googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
 	font-family: roboto;
 }
@@ -23,9 +24,15 @@ section {
 }
 
 .AvengersLogo {
-	width: 100vw;
-	height: 0;
+	width: 98vw;
+	height: 130vh;
 	opacity: 0.1;
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	overflow: hidden;
+	margin: 0px;
+	padding: -1px;
 }
 
 .AvengersLogo img {
@@ -105,6 +112,10 @@ section {
 	transform: translateY(0%);
 }
 
+.news {
+	margin-bottom: 30px;
+}
+
 .newsBox {
 	background-color: #333;
 	border-radius: 12px;
@@ -153,17 +164,87 @@ a:hover {
 	font-weight: 100;
 }
 
+.welcomeText {
+	text-align: left;
+	margin-bottom: 50px;
+	flex: 1; 
+	width: 90vw;
+}
+
+.welcomeText h3 {
+	margin: 0px;
+	font-size: 1.5em;
+	margin-left: 3px;
+}
+
 .welcome {
-	height: 60vh;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .welcome h2 {
 	font-size: 4em;
 	text-transform: uppercase;
 	text-align: left;
-
+	margin-bottom: 0;
 }
 
-#newsletters {
-	background-color: rgb(37, 37, 37);
+.welcome p {
+	text-align: left;
+	margin: 0;
+	margin-left: 3px;
+	margin-top: 30px;
+	width: 50%;
+	font-weight: 100;
+}
+
+.welcome h2 {
+	font-size: 4em;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.welcome img {
+	width: 100%;
+}
+
+aside {
+	width: 12%;
+}
+
+.h {
+	display: none;
+}
+
+
+@media only screen and (max-width: 1268px) {
+	.welcome {
+		flex-direction: column;
+	  }
+
+	  aside {
+		width: 100%;
+	}
+	.v {
+		display: none;
+	}
+
+	.h {
+		display: block;
+	}
+
+	.welcome {
+		height: 105vh;
+	}
+
+	.AvengersLogo {
+		width: 97vw;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.welcome {
+		height: 85vh;
+	}
 }
