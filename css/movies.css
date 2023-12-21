@@ -26,7 +26,7 @@ table {
 }
 
 a {
-	color: #fff;
+	color: #ff7070;
 	text-decoration: none;
 }
 
@@ -40,6 +40,10 @@ td {
 	border: 1px solid #fff;
 	text-align: left;
 	font-size: 0.8em;
+}
+
+td a {
+	font-weight: 900;
 }
 
 th {
@@ -56,6 +60,11 @@ th {
 	font-size: 2em;
 	color: #fff;
 	margin: 0px;
+}
+
+.aboutUs p {
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 .aboutUs p, ul {
@@ -143,6 +152,9 @@ h5 {
 h4 {
 	color: rgb(255, 255, 255);
 	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 22px;
+	font-size: 1.4em;
 }
 
 main h3 {
@@ -161,6 +173,10 @@ main h3 {
 
 .toTop a {
 	padding: 12px 20px;
+}
+
+.fa-arrow-up {
+	color: #fff;
 }
 
 @media only screen and (max-width: 480px) {

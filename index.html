@@ -4,10 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="./styles/styles.css">
-	<link rel="stylesheet" href="./styles/header.css">
-	<link rel="stylesheet" href="./styles/footer.css">
+	<title>Accueil</title>
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/footer.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
 		">
@@ -15,7 +16,7 @@
 
 <body>
 	<header>
-		<img src="images/Marvel_Logo.png" alt="">
+		<img src="images/Marvel_Logo.png" alt="Logo">
 		<nav>
 			<input type="checkbox" class="burgerMenu" id="burgerCheckbox">
 			<label for="burgerCheckbox" class="burgerLabel">
@@ -34,29 +35,24 @@
 		</nav>
 	</header>
 	<main>
+		<div class="AvengersLogo">
+			<img src="./images/Avengers-Logo.png" alt="Avengers Logo">
+		</div>
 		<section class="welcome">
 			<h2>Bienvenue</h2>
 			<article>
 				<h4>ballal</h4>
-				<p>je suis un texte francais</p>
+				<p>Plongez au cœur de l'action, de l'aventure et de l'héroïsme avec notre site dédié à l'univers Marvel. Explorez les pages de ce sanctuaire numérique où les super-héros prennent vie, les intrigues se tissent avec virtuosité, et l'impossible devient réalité.</p>
 			</article>
 			<aside>adsasdasd</aside>
 		</section>
-		<section class="news">
-			<h2>News a la une</h2>
-			<article class="newsBox">
-				<h3>Stan Lee, le Créateur Incontournable</h3>
-				<p>Stan Lee, le célèbre co-créateur de nombreux super-héros Marvel, a commencé sa carrière en tant que
-					garçon de bureau chez Timely Comics en 1939, gagnant initialement 8 dollars par semaine.</p>
-				<p class="date">15 janvier 2023</p>
-			</article>
-		</section>
+		
 		<section class="movies">
 			<h2>Derniers Films</h2>
 			<article>
 				<div class="movie">
 					<div class="imgBox">
-						<img src="https://image.tmdb.org/t/p/original/mqAQO6j5gkq6iwCXNbXpzf0RXBU.jpg" alt="">
+						<img src="https://image.tmdb.org/t/p/original/mqAQO6j5gkq6iwCXNbXpzf0RXBU.jpg" alt="Affiche : The Marvels">
 
 						<div class="movieInfo">
 							<div class="year">
@@ -78,7 +74,7 @@
 
 				<div class="movie">
 					<div class="imgBox">
-						<img src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="">
+						<img src="https://image.tmdb.org/t/p/original/aaGDsYYjltMxrwgs4qnHse4qlGX.jpg" alt="Affiche : Les Gardiens de la Galaxie : Volume 3">
 
 						<div class="movieInfo">
 							<div class="year">
@@ -99,7 +95,7 @@
 				</div>
 				<div class="movie">
 					<div class="imgBox">
-						<img src="https://image.tmdb.org/t/p/original/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg" alt="">
+						<img src="https://image.tmdb.org/t/p/original/2hq8EKF6kaUyOxB9KhmIb5JUxEe.jpg" alt="Affiche : Ant-Man et la Guêpe : Quantumania">
 
 						<div class="movieInfo">
 							<div class="year">
@@ -120,7 +116,7 @@
 				</div>
 				<div class="movie">
 					<div class="imgBox">
-						<img src="https://image.tmdb.org/t/p/original/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg" alt="">
+						<img src="https://image.tmdb.org/t/p/original/rNTKgJdJ8tyfpiUug5ittECK8CS.jpg" alt="Affiche : Black Panther : Wakanda Forever">
 
 						<div class="movieInfo">
 							<div class="year">
@@ -140,6 +136,23 @@
 					<h3>Black Panther : Wakanda Forever</h3>
 				</div>
 			</article>
+		</section>
+		<section class="news">
+			<h2>News a la une</h2>
+			<article class="newsBox">
+				<h3>Stan Lee, le Créateur Incontournable</h3>
+				<p>Stan Lee, le célèbre co-créateur de nombreux super-héros Marvel, a commencé sa carrière en tant que
+					garçon de bureau chez Timely Comics en 1939, gagnant initialement 8 dollars par semaine.</p>
+				<p class="date">15 janvier 2023</p>
+			</article>
+		</section>
+		<section id="newsletters">
+			<h2>Pour en savoir plus sur le souscrit à la new lettres</h2>
+			<form>
+				<input type="email">
+				<button type="submit">Souscire</button>
+			</form>
+
 		</section>
 	</main>
 	<footer>

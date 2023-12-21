@@ -62,11 +62,6 @@ th {
 	margin-bottom: 10px;
 }
 
-p {
-	color: #fff;
-	line-height: 1.4;
-}
-
 audio,
 video {
 	width: 100%;
@@ -121,7 +116,7 @@ article img {
 }
 
 a {
-	color: #fff;
+	color: #ff7070;
 	text-decoration: none;
 }
 
@@ -141,6 +136,10 @@ a:hover {
 
 #avengers {
 	height: 500px;
+}
+
+.fa-arrow-up {
+	color: #fff;
 }
 
 @media only screen and (max-width: 767px) {
