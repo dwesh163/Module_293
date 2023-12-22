@@ -217,6 +217,10 @@ aside {
 	display: none;
 }
 
+.copyright {
+	text-align: center;
+}
+
 /* tablette */
 @media only screen and (max-width: 1268px) {
 	.welcome {
