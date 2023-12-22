@@ -53,6 +53,8 @@ header img {
 	display: none;
 }
 
+/* Mobile pour le burger menu */
+
 @media (max-width: 800px) {
 	.burgerLabel {
 		display: block;

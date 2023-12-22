@@ -25,6 +25,7 @@ footer a:hover {
 	transition: color 100ms ease-in-out;
 }
 
+/* mettre les liens en rouge */
 .social-links i:hover {
 	color: red;
 }

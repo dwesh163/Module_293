@@ -217,7 +217,7 @@ aside {
 	display: none;
 }
 
-
+/* tablette */
 @media only screen and (max-width: 1268px) {
 	.welcome {
 		flex-direction: column;
@@ -243,6 +243,7 @@ aside {
 	}
 }
 
+/* Mobile */
 @media only screen and (max-width: 767px) {
 	.welcome {
 		height: 85vh;

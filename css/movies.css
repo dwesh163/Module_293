@@ -1,3 +1,4 @@
+/* importer la police*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
@@ -14,6 +15,7 @@ body {
 	margin: 0;
 }
 
+/* mettre un flex facilement */
 .flex {
 	display: flex;
 	justify-content: center;
@@ -137,6 +139,7 @@ ul {
 	height: 450px;
 }
 
+/* Pour la taille des images */
 img {
 	width: 100%;
 }
@@ -211,6 +214,8 @@ main h3 {
 	}
 }
 
+/* Mobile */
+
 @media only screen and (max-width: 767px) {
 	aside img {
 		width: 100px;
@@ -246,11 +251,15 @@ main h3 {
 	}
 }
 
+/* tablette */
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	.movieCard {
 		width: 100%;
 	}
 }
+
+/* ordinateur */
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
 	.movieCard {

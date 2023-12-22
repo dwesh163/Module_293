@@ -6,6 +6,7 @@ body {
 	padding: 0;
 }
 
+/* mettre un flex facilement */
 .flex {
 	flex-direction: column;
 }
@@ -51,6 +52,8 @@ article {
 	display: flex;
 	height: 400px;
 }
+
+/* régler facilement la couleur d'arrière-plan */
 
 .gray {
 	background-color: rgb(17, 17, 17);
